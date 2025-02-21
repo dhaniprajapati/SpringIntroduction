@@ -16,8 +16,6 @@ public class HelloWorldController {
         //when someone visits "/hello" this message will be sent as a response
         return "Hello from BridgeLabz";
     }
-
-    //method to handle GET requests sent to the "/api/message" URL
     @GetMapping("/message")
     public String getMessage() {
         return "Hello from BridgeLabz";
